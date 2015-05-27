@@ -1,0 +1,22 @@
+{
+  "name": "deployd-test-app",
+  "version": "0.0.1",
+  "description": "Template for running deployd integration tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "postinstall": "bower install"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "^1.4.1",
+    "deployd": "^0.8.4",
+    "deployd-test-runner": "andreialecu/deployd-test-runner",
+    "gulp": "^3.8.11",
+    "main-bower-files": "^2.8.0"
+  }
+}
